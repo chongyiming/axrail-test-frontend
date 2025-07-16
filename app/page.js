@@ -6,6 +6,7 @@ import Cohost from "./components/Cohost";
 import Learn from "./components/Learn";
 import Tools from "./components/Tools";
 import Questions from "./components/Questions";
+import Footer from "./components/Footer";
 
 export default function Home() {
   return (
@@ -17,6 +18,7 @@ export default function Home() {
       <Learn />
       <Tools />
       <Questions />
+      <Footer />
     </>
   );
 }

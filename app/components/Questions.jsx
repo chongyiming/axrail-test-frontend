@@ -26,12 +26,12 @@ const Questions = () => {
           Your questions, <br />
           answered
         </h1>
-        <ul>
+        <ul className="mt-10">
           <li
             className={`${
               menu1Open
                 ? "border-b border-gray-300  mt-5 py-5"
-                : "border-b border-gray-300 mt-15 py-5"
+                : "border-b border-gray-300 mt-3 py-5"
             } items-center border-gray-300 w-[50%] mx-auto`}
             ref={menuRef1}
             onClick={() => handleOpen(menuRef1, menu1Open, setMenu1Opening)}
