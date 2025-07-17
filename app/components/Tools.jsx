@@ -110,7 +110,7 @@ const Tools = () => {
           </p>
         </div>
       </div>
-      <div className="w-[90%] mx-auto p-10 mt-10 border-t border-gray-300 flex flex-row items-center">
+      <div className="w-[90%] mx-auto p-10 mt-10 border-t border-gray-300 flex flex-row items-center justify-center">
         <Image
           src="/house.png"
           width={300}
