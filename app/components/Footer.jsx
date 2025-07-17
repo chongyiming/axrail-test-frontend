@@ -86,7 +86,7 @@ const Footer = () => {
           />
         </div>
       </div>
-      <div className="mt-3 mx-auto px-5 flex gap-2">
+      <div className="mx-auto px-5 flex gap-2 p-5">
         <Image
           src="/copyright.png"
           width={12}
